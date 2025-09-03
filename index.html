@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Company</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #003366;
+      color: #fff;
+      padding: 20px 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav h1 {
+      font-size: 24px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    nav ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .hero {
+      background-color: #e0eafc;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 18px;
+      color: #555;
+    }
+
+    .section {
+      padding: 60px 20px;
+      background-color: #fff;
+    }
+
+    .section h3 {
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    .services {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .service {
+      flex: 1 1 250px;
+      background: #f2f2f2;
+      padding: 20px;
+      border-radius: 8px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <h1>SimpleCo</h1>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h2>Welcome to SimpleCo</h2>
+      <p>Your trusted partner in business solutions.</p>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container">
+      <h3>About Us</h3>
+      <p>SimpleCo is a small but mighty company focused on delivering high-quality business services. We help companies grow by providing simple, efficient, and affordable solutions.</p>
+    </div>
+  </section>
+
+  <section class="section" id="services">
+    <div class="container">
+      <h3>Our Services</h3>
+      <div class="services">
+        <div class="service">
+          <h4>Consulting</h4>
+          <p>Expert advice to help your business make smarter decisions.</p>
+        </div>
+        <div class="service">
+          <h4>Design</h4>
+          <p>Clean and modern designs for web, branding, and print.</p>
+        </div>
+        <div class="service">
+          <h4>Development</h4>
+          <p>Custom websites and apps built to meet your goals.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="container">
+      <p>Contact us: info@simpleco.com | © 2025 SimpleCo</p>
+    </div>
+  </footer>
+
+</body>
+</html>
